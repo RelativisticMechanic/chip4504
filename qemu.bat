@@ -1,0 +1,1 @@
+qemu-system-i386 -fda ./chip4504.IMA
