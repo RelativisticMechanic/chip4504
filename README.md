@@ -24,6 +24,12 @@ The manual is incomplete for now. However, the CPU, memory addressing modes, and
 Simply run the "qemu.bat" file under Windows. (Ensure that you have the qemu-system-i386 binaries and have set up the PATH variable accordingly).
 Otherwise, you can use the emulator of your choice, VirtualBox or VMWare.
 
+## Building
+
+You will need the SmallerC compiler, which you can find here: https://github.com/alexfru/SmallerC and the Netwide Assembler,
+from here: http://www.nasm.us/ . In addition you'll need a floppy disk program to browse and edit the virtual copy of floppies
+that will be used. (An existing copy called 'chip4504.ima' is present in this repository.
+
 ## Contributing
 
 Report issues to the "Issues" section under this github repository. Other than that, uh, just clone? I wouldn't mind
