@@ -1,5 +1,5 @@
 # chip4504
-An operating system running an extended version of the CHIP8 emulator
+CHIP4504 was a hobby project of mine to extend the CHIP-8 CPU to accomodate more instructions as well as implement the existing SuperCHIP-8 instruction set. This project was a result of that. Unlike a normal emulator, this one is an operating system in itself, written in x86 assembly. Although it is nothing very fancy, the kernel uses x86 BIOS interrupt calls and the OS runs entirely in real mode. It has not been tested on real hardware, and only on QEMU.
 
 ## Features
 
